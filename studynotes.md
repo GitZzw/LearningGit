@@ -81,6 +81,8 @@ git diff branch1 branch2 --stat    显示出所有有差异的文件(不详细,�
 git diff branch1 branch2              显示出所有有差异的文件的详细差异(更详细)
 
 git diff origin/master master
+
+git diff --name-only 只显示差异文件名称
 ```
 
 > `git add .`      跟踪所有改动过的文件 
