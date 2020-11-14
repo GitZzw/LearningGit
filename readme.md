@@ -37,6 +37,9 @@ git branch -a
 
 [ssh](https://docs.github.com/cn/free-pro-team@latest/github/using-git/which-remote-url-should-i-use)要求必须在计算机上生成 SSH 密钥对，并将公钥添加到的 GitHub 帐户
 
+
+没有添加公钥和私钥只能用https模式，先gitclone远程仓库，再拷贝文件进该仓库， 再git push origin master输入密码
+> 
 ### 1.创建版本库
 > `git clone git@github.com:GitZzw/LearningGit.git`  克隆远程版本库(master分支)
 
